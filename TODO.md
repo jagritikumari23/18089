@@ -8,8 +8,14 @@
 - [x] 5. Test backend API endpoints
 - [x] 6. Complete: attempt_completion
 
-**Changes summary (for Git commit):**
-- Added backend/config.js (token - gitignored)
-- Updated backend/notificationService.js (+auth headers)
-- Fixed index.js (paths to backend/)
-- .gitignore + TODO.md
+**Completed:** Token integration.
+
+**Remaining for full submission:**
+- [x] 1. Create logging_middleware/index.js (Log API)
+- [ ] 2. Rename backend → notification_app_be, frontend → notification_app_fe
+- [x] 3. notification_system_design.md
+- [ ] 4. Push to main
+- [ ] 5. Complete
+- [ ] 3. notification_system_design.md
+- [ ] 4. Push to main
+- [ ] 5. Complete
