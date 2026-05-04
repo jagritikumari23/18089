@@ -133,15 +133,11 @@ Multiplying by `1,000,000` before storing in the heap avoids floating-point comp
 ```
 campus-notifications/
 ├── index.js                  # Express app + server bootstrap
-├── src/
-│   ├── routes.js             # API route handlers
-│   ├── notificationService.js# Fetch + Top-N logic
-│   ├── priorityScorer.js     # Score computation
-│   ├── minHeap.js            # Min-heap data structure
-│   └── logger.js             # Logging middleware + file logger
+├── notification_app_be/
+├── notification_app_fe/
+├── logging_middleware/
 ├── logs/
-│   └── app.log               # Structured JSON logs
-└── Notification_System_Design.md
+└── notification_system_design.md
 ```
 
 ---
@@ -169,3 +165,4 @@ curl "http://localhost:3001/api/notifications/priority?n=10&notification_type=Pl
 # All notifications, page 2
 curl "http://localhost:3001/api/notifications?page=2&limit=20"
 ```
+
